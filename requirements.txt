@@ -1,0 +1,14 @@
+python-dotenv>=1.0.0
+
+# Async + utilities (usually built-in, but safe to include)
+anyio>=4.0.0
+
+# Anthropic (Claude API)
+anthropic>=0.34.0
+
+# MCP client (assuming it's a package, else remove if local)
+mcp>=1.0.0
+
+# CLI support (if your CliApp uses rich/typer)
+rich>=13.0.0
+typer>=0.9.0
